@@ -1,10 +1,10 @@
 <?php
 
-// menjalankan sessions
-// (DISI)
+// menjalankan sessioN
+session_start();
  
 // fungsi untuk menghapus seluruh session
-// (DISI)
+session_destroy();
  
 // redirect ke halaman index.php (halaman login)
 header('Location: login.html');
